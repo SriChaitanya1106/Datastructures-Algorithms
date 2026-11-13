@@ -14,7 +14,15 @@ A collection of Java-based Data Structures and Algorithms implementations, probl
 
 ## 📌 About This Repository
 
-This repository documents **92 Java source implementations**, consisting of coding platform problems, core data structure implementations, and fundamental concept exercises organized across **9 foundational topics**. It represents an active learning log focused on understanding how algorithms work under the hood, analyzing time/space trade-offs, and practicing clean Java programming.
+This repository documents **92 indexed practice entries** organized across **9 foundational topics**. Rather than exclusively featuring competitive coding platform questions, these entries encompass a balanced learning blend including:
+- **Coding platform problems** (verified challenges from LeetCode and GeeksforGeeks).
+- **Custom data structure implementations** (handcrafted linked lists, doubly linked lists, and stacks).
+- **Java fundamentals** (array manipulation, string immutability, and 2D matrices).
+- **Java Collections Framework exercises** (utilizing standard classes like `ArrayList` and `LinkedList`).
+- **Standard DSA exercises** (classic recursion recurrences, searching routines, and backtracking explorations).
+- **Independent practice** (personal exercises and experimental implementations).
+
+It represents an active learning log focused on understanding how algorithms work under the hood, analyzing time/space trade-offs, and practicing clean Java programming.
 
 ### Key Highlights
 - **Hands-On Data Structure Implementations:** Custom implementations of foundational structures (such as custom Singly Linked Lists, Doubly Linked Lists, and Stacks via Linked List / ArrayList) alongside standard Java Collections Framework (`java.util.*`) practice.
@@ -61,6 +69,22 @@ DATASTRUCTURES_AND_ALGORITHMS/
 
 ---
 
+## 🚀 Upcoming Topics
+
+The following topics represent the next milestones in my ongoing DSA roadmap:
+
+- **Binary Trees and Binary Search Trees**
+- **Heaps and Priority Queues**
+- **Hashing**
+- **Tries**
+- **Graph Algorithms**
+- **Greedy Algorithms**
+- **Dynamic Programming**
+
+> *Note: These subjects are planned for upcoming learning and implementation as my problem-solving journey progresses. They are not yet indexed in this repository.*
+
+---
+
 ## 🎯 Learning Objectives
 
 - **Algorithmic Patterns:** Build working intuition for foundational patterns including Two Pointers, Monotonic Stacks, Fast & Slow Pointers (Floyd's algorithm), Divide & Conquer, Backtracking, and Prefix Sums.
@@ -83,7 +107,7 @@ DATASTRUCTURES_AND_ALGORITHMS/
 
 Total Entries: **9**
 
-| # | Problem / Concept | Source File | Source / Reference | Approach | Time Complexity | Space Complexity | Brief Explanation |
+| # | Problem / Concept | Source File | Source / Reference | Approach | Time Complexity | Auxiliary Space | Brief Explanation |
 | :-: | :--- | :--- | :--- | :--- | :---: | :---: | :--- |
 | 1 | **ArrayList Operations & CRUD Fundamentals** | [Arraylist.java](ARRAYLIST/Arraylist.java) | Java Collections Framework | Dynamic array demonstration (add, get, remove, set, contains, size) | `O(1) amortized add/get/set; O(n) remove/contains` | `O(n) auxiliary` | Demonstrates internal dynamics of Java ArrayList, contrasting dynamic sizing with primitive arrays, and illustrates common CRUD operations. |
 | 2 | **Find Maximum in ArrayList** | [FindMaximum.java](ARRAYLIST/FindMaximum.java) | Standard DSA Exercise | Linear scan with running maximum update | `O(n)` | `O(1)` | Iterates through the ArrayList updating the maximum element using Math.max(). |
@@ -102,7 +126,7 @@ Total Entries: **9**
 
 Total Entries: **19**
 
-| # | Problem / Concept | Source File | Source / Reference | Approach | Time Complexity | Space Complexity | Brief Explanation |
+| # | Problem / Concept | Source File | Source / Reference | Approach | Time Complexity | Auxiliary Space | Brief Explanation |
 | :-: | :--- | :--- | :--- | :--- | :---: | :---: | :--- |
 | 1 | **Array Basics & I/O Manipulation** | [Arrays.java](ARRAYS/Arrays.java) | Java Core | Declaration, Scanner input, direct indexing and update | `O(1) access/update` | `O(n) allocated buffer` | Demonstrates fixed-size primitive array allocation, taking user inputs via Scanner, and mutating array cells. |
 | 2 | **Best Time to Buy and Sell Stock** | [Buy_Sell_stocks.java](ARRAYS/Buy_Sell_stocks.java) | LeetCode #121 | Single-pass Greedy / Running Minimum | `O(n)` | `O(1)` | Maintains lowest buy price observed so far and calculates maximum profit achievable by selling on each day. |
@@ -131,7 +155,7 @@ Total Entries: **19**
 
 Total Entries: **6**
 
-| # | Problem / Concept | Source File | Source / Reference | Approach | Time Complexity | Space Complexity | Brief Explanation |
+| # | Problem / Concept | Source File | Source / Reference | Approach | Time Complexity | Auxiliary Space | Brief Explanation |
 | :-: | :--- | :--- | :--- | :--- | :---: | :---: | :--- |
 | 1 | **Backtracking on Arrays (State Restoration)** | [BT_on_Arrays.java](BACKTRACKING/BT_on_Arrays.java) | Standard DSA Exercise | Recursive assignment with backtracking decrement | `O(n)` | `O(n) call stack` | Fills array recursively from 1 to n, and on backtracking unrolls by subtracting 2 from each cell. |
 | 2 | **Permutations of a String** | [FindPermutations.java](BACKTRACKING/FindPermutations.java) | Standard DSA Exercise | Recursive backtracking by character extraction | `O(n * n!)` | `O(n) call stack` | Generates all permutations of a string by selecting each character and recursing on the remaining substring. |
@@ -147,7 +171,7 @@ Total Entries: **6**
 
 Total Entries: **14**
 
-| # | Problem / Concept | Source File | Source / Reference | Approach | Time Complexity | Space Complexity | Brief Explanation |
+| # | Problem / Concept | Source File | Source / Reference | Approach | Time Complexity | Auxiliary Space | Brief Explanation |
 | :-: | :--- | :--- | :--- | :--- | :---: | :---: | :--- |
 | 1 | **Delete N Nodes After M Nodes** | [DeleteNafterM.java](LINKEDLIST/DeleteNafterM.java) | GeeksforGeeks | Pointer traversal with skip-M and delete-N logic | `O(L) where L is total nodes` | `O(1)` | Traverses M nodes, deletes following N nodes by updating next pointers, repeating until end of list. |
 | 2 | **Detect Cycle in Linked List** | [DetectCycle.java](LINKEDLIST/DetectCycle.java) | LeetCode #141 | Floyd's Cycle Finding Algorithm (Tortoise & Hare) | `O(n)` | `O(1)` | Uses slow pointer moving 1 step and fast pointer moving 2 steps; if they meet, a cycle exists. |
@@ -171,7 +195,7 @@ Total Entries: **14**
 
 Total Entries: **13**
 
-| # | Problem / Concept | Source File | Source / Reference | Approach | Time Complexity | Space Complexity | Brief Explanation |
+| # | Problem / Concept | Source File | Source / Reference | Approach | Time Complexity | Auxiliary Space | Brief Explanation |
 | :-: | :--- | :--- | :--- | :--- | :---: | :---: | :--- |
 | 1 | **Binary Strings without Consecutive 1s** | [BinaryStrings.java](RECURSION/BinaryStrings.java) | Standard DSA Exercise | Recursive branching with last-placed bit state tracking | `O(2^n)` | `O(n) call stack` | Generates all binary strings of length n where '1' is never followed by another '1'. |
 | 2 | **Check if Array is Sorted Recursively** | [CheckSortedArray.java](RECURSION/CheckSortedArray.java) | Standard DSA Exercise | Recursive linear scan comparing adjacent indices | `O(n)` | `O(n) call stack` | Validates if arr[i] <= arr[i+1] and recursively evaluates rest of array. |
@@ -194,7 +218,7 @@ Total Entries: **13**
 
 Total Entries: **13**
 
-| # | Problem / Concept | Source File | Source / Reference | Approach | Time Complexity | Space Complexity | Brief Explanation |
+| # | Problem / Concept | Source File | Source / Reference | Approach | Time Complexity | Auxiliary Space | Brief Explanation |
 | :-: | :--- | :--- | :--- | :--- | :---: | :---: | :--- |
 | 1 | **Check Palindrome LinkedList Using Stack** | [checkPalindrome.java](STACKS/checkPalindrome.java) | Standard DSA Exercise | Two-pass comparison using Stack LIFO property | `O(n)` | `O(n)` | Pushes all characters of LinkedList onto a Stack, then iterates again comparing list elements with stack top. |
 | 2 | **Decode String (k[encoded_string])** | [Decode.java](STACKS/Decode.java) | LeetCode #394 / GeeksforGeeks | Single Character Stack (Stack<Character>) with bracket expansion | `O(N) where N is decoded string length` | `O(N) stack` | Uses a single character stack to push characters until ']', then pops to reconstruct substring and multiplier count, pushing expanded characters back onto the stack. |
@@ -217,7 +241,7 @@ Total Entries: **13**
 
 Total Entries: **9**
 
-| # | Problem / Concept | Source File | Source / Reference | Approach | Time Complexity | Space Complexity | Brief Explanation |
+| # | Problem / Concept | Source File | Source / Reference | Approach | Time Complexity | Auxiliary Space | Brief Explanation |
 | :-: | :--- | :--- | :--- | :--- | :---: | :---: | :--- |
 | 1 | **Count Lowercase Vowels in String** | [CountLowerCaseVowels.java](STRINGS/CountLowerCaseVowels.java) | Standard DSA Exercise | Single-pass character iteration and vowel condition check | `O(n)` | `O(1)` | Iterates through string checking whether character equals 'a', 'e', 'i', 'o', or 'u', incrementing counter. |
 | 2 | **Lexicographically Largest String** | [LargestString.java](STRINGS/LargestString.java) | Standard DSA Exercise | Linear scan with String.compareTo() | `O(N * L) where L is string length` | `O(1)` | Finds lexicographically greatest string in an array using Java compareTo() method. |
@@ -236,7 +260,7 @@ Total Entries: **9**
 
 Total Entries: **3**
 
-| # | Problem / Concept | Source File | Source / Reference | Approach | Time Complexity | Space Complexity | Brief Explanation |
+| # | Problem / Concept | Source File | Source / Reference | Approach | Time Complexity | Auxiliary Space | Brief Explanation |
 | :-: | :--- | :--- | :--- | :--- | :---: | :---: | :--- |
 | 1 | **Binary Search** | [BinarySearch.java](Searching_Algorithms/BinarySearch.java) | Standard Algorithm | Divide and Conquer / Iterative two-pointer half elimination | `O(log n)` | `O(1)` | Iteratively divides search interval in half by comparing middle element with target on sorted array. |
 | 2 | **Linear Search** | [LinearSearch.java](Searching_Algorithms/LinearSearch.java) | Standard Algorithm | Sequential scan through array elements | `O(n)` | `O(1)` | Iterates from index 0 to n-1 checking equality with target key; returns index or -1 if not found. |
@@ -249,7 +273,7 @@ Total Entries: **3**
 
 Total Entries: **6**
 
-| # | Problem / Concept | Source File | Source / Reference | Approach | Time Complexity | Space Complexity | Brief Explanation |
+| # | Problem / Concept | Source File | Source / Reference | Approach | Time Complexity | Auxiliary Space | Brief Explanation |
 | :-: | :--- | :--- | :--- | :--- | :---: | :---: | :--- |
 | 1 | **Bubble Sort with Early Exit Optimization** | [BubbleSort.java](Sorting_Algorithms/BubbleSort.java) | Standard Algorithm | Adjacent element swapping with swapped-flag early exit | `O(n^2) worst/avg, O(n) best case` | `O(1)` | Repeatedly steps through list, swaps adjacent out-of-order elements, terminating early if pass made zero swaps. |
 | 2 | **Counting Sort** | [CountingSort.java](Sorting_Algorithms/CountingSort.java) | Standard Algorithm | Non-comparative frequency counting array | `O(n + k) where k is max element value` | `O(k)` | Finds maximum value, tallies frequency of each element in a count array, and overwrites input array in order. |
