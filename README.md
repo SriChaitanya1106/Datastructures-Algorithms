@@ -1,22 +1,23 @@
 # Data Structures and Algorithms in Java
 
 [![Java](https://img.shields.io/badge/Language-Java_8%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](#)
-[![Problems](https://img.shields.io/badge/Problems_Solved-92-00599C?style=for-the-badge&logo=leetcode&logoColor=white)](#)
+[![Entries](https://img.shields.io/badge/Practiced_Entries-92-00599C?style=for-the-badge&logo=leetcode&logoColor=white)](#)
 [![Topics](https://img.shields.io/badge/Topics-9_Categories-4CAF50?style=for-the-badge)](#)
-[![Code Style](https://img.shields.io/badge/Code_Style-Clean_Java-blue?style=for-the-badge)](#)
+[![Status](https://img.shields.io/badge/Status-Actively_Learning-orange?style=for-the-badge)](#)
 
-A curated, high-performance collection of **Data Structures and Algorithms (DSA)** solutions implemented in pure Java. This repository serves as a structured reference and practice hub covering fundamental to advanced programming concepts, algorithm paradigms, and LeetCode / GeeksforGeeks problems.
+A personal repository documenting my hands-on **Data Structures and Algorithms (DSA)** learning journey in Java. This space tracks my progress across core data structures, foundational algorithm patterns, problem-solving implementations, and coding exercises from platforms like LeetCode and GeeksforGeeks.
 
 ---
 
 ## 📌 About This Repository
 
-This repository contains **92 standalone Java solutions** organized across **9 foundational computer science topics**. Every solution focuses on clarity, optimal time and space complexity, and idiomatic Java implementations without external runtime dependencies.
+This repository documents **92 Java source implementations**, consisting of coding platform problems, core data structure implementations, and fundamental concept exercises organized across **9 foundational topics**. It represents an active learning log focused on understanding how algorithms work under the hood, analyzing time/space trade-offs, and practicing clean Java programming.
 
 ### Key Highlights
-- **Pure Java Implementations:** Handcrafted implementations of core data structures (Singly Linked List, Doubly Linked List, Stack via Linked List & ArrayList) alongside Java Collections Framework (JFC) usage.
-- **Exhaustive Algorithmic Coverage:** Demonstrates multiple problem-solving approaches (e.g., Kadane's algorithm vs. Prefix Sum vs. Brute Force for maximum subarray sum; divide-and-conquer vs. iterative methods).
-- **Complexity Analyzed:** Every solution is categorized with its theoretical Time Complexity and Auxiliary Space Complexity.
+- **Hands-On Data Structure Implementations:** Custom implementations of foundational structures (such as custom Singly Linked Lists, Doubly Linked Lists, and Stacks via Linked List / ArrayList) alongside standard Java Collections Framework (`java.util.*`) practice.
+- **Exploring Multiple Approaches:** Compares different problem-solving strategies where helpful (e.g., contrasting Kadane's algorithm with prefix sum and brute-force approaches for maximum subarray sum).
+- **Complexity Aware:** Each entry is analyzed for its theoretical Time Complexity and Auxiliary Space Complexity to build stronger analytical habits.
+- **Active Learning Progress:** A living log of practical problem-solving that evolves as new topics and challenges are explored.
 
 ---
 
@@ -40,27 +41,27 @@ DATASTRUCTURES_AND_ALGORITHMS/
 
 ## 📊 Progress Tracker
 
-| Topic | Category Folder | Problems Solved | Status |
+| Topic | Category Folder | Practiced Entries | Status |
 | :--- | :--- | :---: | :---: |
-| ArrayList & Dynamic Arrays | [`ARRAYLIST/`](#arraylist) | 9 | Completed |
-| Arrays & Multi-Dimensional Matrices | [`ARRAYS/`](#arrays) | 19 | Completed |
-| Backtracking & State Exploration | [`BACKTRACKING/`](#backtracking) | 6 | Completed |
-| Linked Lists (Singly & Doubly) | [`LINKEDLIST/`](#linkedlist) | 14 | Completed |
-| Recursion & Divide and Conquer | [`RECURSION/`](#recursion) | 13 | Completed |
-| Stacks & Monotonic Stacks | [`STACKS/`](#stacks) | 13 | Completed |
-| Strings & Character Manipulation | [`STRINGS/`](#strings) | 9 | Completed |
-| Searching Algorithms | [`Searching_Algorithms/`](#searching_algorithms) | 3 | Completed |
-| Sorting Algorithms | [`Sorting_Algorithms/`](#sorting_algorithms) | 6 | Completed |
-| **Total** | **9 Categories** | **92 / 92** | **100% Complete** |
+| ArrayList & Dynamic Arrays | [`ARRAYLIST/`](#arraylist) | 9 | Practiced |
+| Arrays & Multi-Dimensional Matrices | [`ARRAYS/`](#arrays) | 19 | Practiced |
+| Backtracking & State Exploration | [`BACKTRACKING/`](#backtracking) | 6 | Practiced |
+| Linked Lists (Singly & Doubly) | [`LINKEDLIST/`](#linkedlist) | 14 | Practiced |
+| Recursion & Divide and Conquer | [`RECURSION/`](#recursion) | 13 | Practiced |
+| Stacks & Monotonic Stacks | [`STACKS/`](#stacks) | 13 | Practiced |
+| Strings & Character Manipulation | [`STRINGS/`](#strings) | 9 | Practiced |
+| Searching Algorithms | [`Searching_Algorithms/`](#searching_algorithms) | 3 | Covered |
+| Sorting Algorithms | [`Sorting_Algorithms/`](#sorting_algorithms) | 6 | Covered |
+| **Total** | **9 Categories** | **92 Entries** | **Active Learning** |
 
 ---
 
 ## 🎯 Learning Objectives
 
-- **Algorithmic Patterns:** Master common patterns including Two Pointers, Sliding Window / Monotonic Stacks, Fast & Slow Pointers (Floyd's algorithm), Divide & Conquer, Backtracking, and Prefix Sums.
-- **Complexity Trade-Offs:** Understand empirical and asymptotic time and auxiliary space trade-offs between brute force, precomputed, and optimal solutions.
-- **Memory Models:** Gain an intuitive understanding of heap allocation, stack frames, call-stack recursion depth, and pointer/reference linking in Java.
-- **Interview Readiness:** Cover classic and frequently encountered technical interview questions from LeetCode, GeeksforGeeks, and technical screening rounds.
+- **Algorithmic Patterns:** Build working intuition for foundational patterns including Two Pointers, Monotonic Stacks, Fast & Slow Pointers (Floyd's algorithm), Divide & Conquer, Backtracking, and Prefix Sums.
+- **Complexity Trade-Offs:** Compare time and auxiliary space trade-offs between brute force explorations and optimized techniques.
+- **Memory & Object Models:** Gain practical understanding of Java heap allocations, recursion depth on the call stack, and node pointer manipulation.
+- **Consistent Problem Solving:** Develop disciplined coding habits, edge-case consideration, and clean implementation practices for technical interviews.
 
 ---
 
@@ -280,8 +281,9 @@ java BackTracking.NQueens
 
 ---
 
-## 👤 Author
+## 👤 Author & Journey
 
 - **Repository:** Data Structures and Algorithms in Java
+- **Author:** Sri Chaitanya
 - **Language:** Java
-- **Status:** Maintained & Documented
+- **Status:** Active Practice & Continuous Learning
