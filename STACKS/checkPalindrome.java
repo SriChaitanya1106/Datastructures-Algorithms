@@ -1,4 +1,4 @@
-package Stacks;
+package STACKS;
 import java.util.*;
 public class checkPalindrome{
     public static void CheckPalindrome(LinkedList<Character> ll){

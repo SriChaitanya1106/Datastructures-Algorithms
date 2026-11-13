@@ -1,4 +1,4 @@
-package Recursion;
+package RECURSION;
 
 public class FirstOccurence {
     public static int firstOcc(int arr[], int key, int i){

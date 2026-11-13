@@ -1,4 +1,4 @@
-package BackTracking;
+package BACKTRACKING;
 
 public class GridWays {
     //exponential time comlexity optimized should be done.

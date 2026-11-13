@@ -1,4 +1,4 @@
-package Recursion;
+package RECURSION;
 
 public class LastOccurence {
     public static int lastOcc(int arr[], int key, int i){

@@ -1,4 +1,4 @@
-package Stacks;
+package STACKS;
 import java.util.*;
 public class ReverseString {
     public static String reverseString(String str){

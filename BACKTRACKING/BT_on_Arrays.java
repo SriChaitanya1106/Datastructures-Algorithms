@@ -1,4 +1,4 @@
-package BackTracking;
+package BACKTRACKING;
 
 public class BT_on_Arrays {
 

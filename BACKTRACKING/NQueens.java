@@ -1,4 +1,4 @@
-package BackTracking;
+package BACKTRACKING;
 
 public class NQueens {
     public static boolean isSafe(char board[][], int row, int col){

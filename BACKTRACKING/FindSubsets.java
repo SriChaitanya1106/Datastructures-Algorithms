@@ -1,4 +1,4 @@
-package BackTracking;
+package BACKTRACKING;
 
 public class FindSubsets {
     public static void findsubsets(String str,String ans, int i){

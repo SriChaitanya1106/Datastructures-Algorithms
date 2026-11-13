@@ -1,4 +1,4 @@
-package Recursion;
+package RECURSION;
 
 public class xPowern {
     //Brute force:

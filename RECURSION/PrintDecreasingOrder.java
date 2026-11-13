@@ -1,4 +1,4 @@
-package Recursion;
+package RECURSION;
 
 public class PrintDecreasingOrder {
     public static void PrintDec(int n){

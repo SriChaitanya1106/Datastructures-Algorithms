@@ -1,4 +1,4 @@
-package Recursion;
+package RECURSION;
 
 public class FirstNnaturalnum {
     public static int SumOfN(int n){

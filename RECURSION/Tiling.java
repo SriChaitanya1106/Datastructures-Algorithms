@@ -1,4 +1,4 @@
-package Recursion;
+package RECURSION;
 
 public class Tiling {
     public static int tilingProblem(int n){

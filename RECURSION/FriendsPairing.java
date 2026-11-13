@@ -1,4 +1,4 @@
-package Recursion;
+package RECURSION;
 
 public class FriendsPairing {
     public static int friendspairing(int n){

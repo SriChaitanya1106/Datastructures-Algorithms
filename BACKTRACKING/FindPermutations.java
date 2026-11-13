@@ -1,4 +1,4 @@
-package BackTracking;
+package BACKTRACKING;
 public class FindPermutations {
     public static void findPermutation(String str, String ans){
         if(str.length() == 0){

@@ -1,4 +1,4 @@
-package Recursion;
+package RECURSION;
 
 public class RemoveDuplicates {
     public static void removedupli(String str,int idx,StringBuilder newStr, boolean map[]){
